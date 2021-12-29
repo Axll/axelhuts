@@ -1,0 +1,136 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+    <link id="chosenStyleSheet" rel="stylesheet" type="text/css" href="./css/darkstyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="./js/nightanddarkmode.js"></script> 
+    
+</head>
+
+<body>
+
+    <nav>
+        <p>Huts Axel</p>
+        <ul>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="grid">
+        <div id="about-me">
+            <h1>About me</h1>
+            <p>Hi there!</p> 
+            <br><br>
+            <p> 
+                My name is Axel and I'm a coding enthousiast currently enrolled at Codecademy.com.
+            </p>
+            <br>
+            <p>
+                I'm also an experienced photographer! When I stopped wearing a diaper, I had a camera in my hands. So yeah, a couple 
+                of years experience :)
+            </p>
+            <br>
+            <p>
+                I spend my free time with my kid and family. And Netflix ofcourse! 
+            </p>
+            <div id="le-me-smoll"><img src="./resources/photo/leme.jpg"></div>
+        </div>
+
+        <div id="projects">
+            <h1>Projects</h1>
+            <p>Here are some of my projects. Feel free to check them out!</p>
+            <ul>
+                <li><a class="projectlink" href="https://axll.github.io/excursion/" target="_blank"><i class="material-icons">keyboard_arrow_right</i>Excursion</a></li>
+                <li><a class="projectlink" href="https://axll.github.io/TeaCozy/" target="_blank"><i class="material-icons">keyboard_arrow_right</i>Tea Cozy</a></li>
+                <li><a class="projectlink" href="https://axll.github.io/fotomatic/" target="_blank"><i class="material-icons">keyboard_arrow_right</i>Fotomatic</a></li>
+                <li><a class="projectlink" href="https://axll.github.io/angles/" target="_blank"><i class="material-icons">keyboard_arrow_right</i>Angles</a></li>
+                <li><a class="projectlink" href="https://glitchproductions.be/photography" target="_blank"><i class="material-icons">keyboard_arrow_right</i>My photography portfolio</a></li>
+            </ul>
+        </div>
+
+        <div id="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li><i class="material-icons" style="font-size:48px;">html</i>
+                    <div class="skill">
+                        <div class="skillbar">
+                            <div class="skillprogress htmlprogress"></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li><i class="material-icons" style="font-size:48px;">css</i>
+                    <div class="skill">
+                        <div class="skillbar">
+                            <div class="skillprogress cssprogress"></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li><i class="material-icons" style="font-size:48px;">javascript</i>
+                    <div class="skill">
+                        <div class="skillbar">
+                            <div class="skillprogress jsprogress"></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li><i class="material-icons" style="font-size:48px;">php</i>
+                    <div class="skill">
+                        <div class="skillbar">
+                            <div class="skillprogress phpprogress"></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li><i class="material-icons" style="font-size:30px; margin:10px 0;">camera</i>
+                    <div class="skill">
+                        <div class="skillbar">
+                            <div class="skillprogress photographyprogress"></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li><i class="material-icons" style="font-size:30px; margin:10px 0;">vrpano</i>
+                    <div class="skill">
+                        <div class="skillbar">
+                            <div class="skillprogress lightroomprogress"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="le-me"><img src="./resources/photo/leme.jpg">
+            <p id="nightOrDay">Choose for the Light side?</p>
+            <label class="switch">
+                <input id="nightOrDarkMode" type="checkbox" onclick="nightOrDark()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </main>
+    
+</body>
+
+<footer>
+
+</footer>
+</html>
