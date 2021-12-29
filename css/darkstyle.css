@@ -39,6 +39,10 @@ nav{
     margin-top: 20px;
 }
 
+nav label{
+    display: none;
+}
+
 nav p{
     float: left;
     font-family: 'Pushster', cursive;
@@ -280,6 +284,11 @@ main{
     /* General */
     body{
         width: 100%;
+    }
+
+    nav label{
+        margin-top: .35rem;
+        display: block;
     }
 
     #le-me{
