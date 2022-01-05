@@ -39,6 +39,10 @@ nav{
     margin-top: 20px;
 }
 
+nav .switch{
+    display: none;
+}
+
 nav label{
     display: none;
 }

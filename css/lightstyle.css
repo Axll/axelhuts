@@ -39,6 +39,10 @@ nav{
     margin-top: 20px;
 }
 
+nav .switch{
+    display: none;
+}
+
 nav p{
     float: left;
     font-family: 'Pushster', cursive;
@@ -277,7 +281,7 @@ main{
 
 
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 900px) {
     /* General */
     body{
         width: 100%;
